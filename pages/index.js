@@ -13,6 +13,7 @@ export default function Home() {
     <Head>
       <title>Chris Sarmiento</title>
       <meta name="descritption" content="Page title"/>
+      <link href="https://fonts.googleapis.com/css2?family=Lato&family=Rubik&display=swap" rel="stylesheet"/>
     </Head>
 
     <Navbar />

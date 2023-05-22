@@ -14,26 +14,26 @@ const Navbar = () => {
         {/* navbar header */}
       <div className="flex justify-between items-center w-full h-full px-2">
         <div>
-          <h1 className="sm:hidden">CSS</h1>
-          <h1 className="hidden sm:block">Chris Sarmiento-Salas</h1>
+          <h1 className="sm:hidden text-3xl text-[#247ba0] italic">CSS</h1>
+          <h1 className="hidden sm:block text-3xl text-[#247ba0] ">Chris Sarmiento-Salas</h1>
         </div>
 
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:underline">Home</li>
+              <li className="ml-10 text-lg uppercase hover:underline">Home</li>
             </Link>
 
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:underline">About</li>
+              <li className="ml-10 text-lg uppercase hover:underline">About</li>
             </Link>
 
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:underline">Work</li>
+              <li className="ml-10 text-lg uppercase hover:underline">Work</li>
             </Link>
 
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:underline">
+              <li className="ml-10 text-lg uppercase hover:underline">
                 Contact
               </li>
             </Link>
@@ -50,8 +50,7 @@ const Navbar = () => {
             {/* hamburger menu header */}
           <div>
             <div className="flex justify-between items-center w-full">
-              <h1 className="sm:hidden">CSS</h1>
-              <h1 className="hidden sm:block">Chris Sarmiento-Salas</h1>
+              <h1 className="text-3xl text-[#247ba0] italic">CSS</h1>
               <div onClick={handleNavbar} className="cursor-pointer">
                 <SlClose size={25} />
               </div>
@@ -61,21 +60,21 @@ const Navbar = () => {
           {/* hamburger menu list */}
             <ul className="py-10 flex flex-col">
               <Link href="/">
-                <li className="py-4 text-sm uppercase hover:underline">Home</li>
+                <li className="py-4 text-lg uppercase hover:underline">Home</li>
               </Link>
 
               <Link href="/">
-                <li className=" py-4 text-sm uppercase hover:underline">
+                <li className=" py-4 text-lg uppercase hover:underline">
                   About
                 </li>
               </Link>
 
               <Link href="/">
-                <li className="py-4 text-sm uppercase hover:underline">Work</li>
+                <li className="py-4 text-lg uppercase hover:underline">Work</li>
               </Link>
 
               <Link href="/">
-                <li className="py-4 text-sm uppercase hover:underline">
+                <li className="py-4 text-lg uppercase hover:underline">
                   Contact
                 </li>
               </Link>
@@ -85,9 +84,9 @@ const Navbar = () => {
             {/* need to add links and a tag properties  */}
 
             <div className="flex justify-between items-center w-full sm:w-[80%]">
-                <a className=""><SlSocialGithub size={25}/></a>
-                <a className=""><SlSocialLinkedin size={25} /></a>
-                <a className=" cursor-pointer animate-bounce"><SlDoc size={25} /></a>
+                <a className=""><SlSocialGithub size={35}/></a>
+                <a className=""><SlSocialLinkedin size={35} /></a>
+                <a className=" cursor-pointer animate-bounce"><SlDoc size={35} /></a>
             </div>
         </div>
       </div>
