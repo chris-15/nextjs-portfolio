@@ -1,6 +1,9 @@
-import Navbar from "@/components/Navbar"
 import Head from "next/head"
 import Image from "next/image"
+
+import Navbar from "../components/Navbar";
+import HomePage from "../components/HomePage";
+
 
 
 
@@ -13,6 +16,8 @@ export default function Home() {
     </Head>
 
     <Navbar />
+    <HomePage />
+   
 
    </div>
   )
