@@ -10,7 +10,7 @@ const Navbar = () => {
     const handleNavbar = () => setSideBar(!sideBar);
 
   return (
-    <div className="fixed w-full h-20 z-[100] shadow-xl">
+    <div className="fixed w-full h-20 z-[100] shadow-xl bg-[#E2E2E2]">
         {/* navbar header */}
       <div className="flex justify-between items-center w-full h-full px-2">
         <div>
