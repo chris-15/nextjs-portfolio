@@ -12,8 +12,8 @@ import {
 
 const Skills = () => {
   return (
-    <div className="">
-      My skills include but not limited to:
+    <div className="w-full md:h-screen p-4 flex items-center">
+      <h2>My skills include but not limited to:</h2>
       <ul>
         <li>
           HTML <SiHtml5 size={35} />

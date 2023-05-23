@@ -4,6 +4,7 @@ import Image from "next/image"
 import Navbar from "../components/Navbar";
 import HomePage from "../components/HomePage";
 import About from "../components/About";
+import Skills from "../components/Skills";
 
 
 
@@ -19,6 +20,8 @@ export default function Home() {
     <Navbar />
     <HomePage />
     <About />
+   
+
 
    </div>
   )
