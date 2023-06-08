@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-[#E2E2E2] text-[#605F5E]
+    @apply bg-gray-50 text-[#605F5E]
   }
 }
 

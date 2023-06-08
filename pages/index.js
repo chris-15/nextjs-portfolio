@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import HomePage from "../components/HomePage";
 import About from "../components/About";
 import Skills from "../components/Skills";
+import Projects from "../components/Projects";
 
 
 
@@ -20,7 +21,7 @@ export default function Home() {
     <Navbar />
     <HomePage />
     <About />
-   
+    <Projects />
 
 
    </div>
