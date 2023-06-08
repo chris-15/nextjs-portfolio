@@ -10,7 +10,7 @@ import weatherImg from '../public/assets/images/WeatherDashboard.png';
 const Projects = () => {
   return (
     <div className="w-full px-4 ">
-      <div className="max-w-[1240px] mx-auto  py-16">
+      <div className="max-w-[1240px] mx-auto py-16">
         <h2 className="text-4xl text-[#247ba0] pb-2">Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
