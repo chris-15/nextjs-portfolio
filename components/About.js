@@ -6,7 +6,7 @@ import profileImage from "../public/assets/images/chris2.jpeg";
 const About = () => {
   return (
     <div id="about">
-      <div className="w-full md:h-screen p-4 flex items-center">
+      <div className="w-full md:h-screen px-4 flex items-center py-24">
         <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
           <div className="col-span-2">
             <h2 className="text-4xl text-[#247ba0]">About</h2>

@@ -2,16 +2,16 @@ import React, { useState } from "react";
 
 const Contact = () => {
   return (
-    <div id="contact" className="w-full lg:h-screen">
-      <div className="max-w-[1240px] m-auto px-4 py-16 w-full">
+    <div id="contact" className="w-full lg:h-screen pt-24 pb-10">
+      <div className="max-w-[1240px] m-auto px-4 w-full">
         <h2 className="text-4xl text-[#247ba0] pb-2">Contact Me!</h2>
-        <p className=" tracking-wide">
+        {/* <p className=" tracking-wide">
           Please sumbit the form below or email me - chris.sarm15@gmail.com
-        </p>
+        </p> */}
 
         <div className="w-full h-auto shadow-xl shadow-gray-400 rounded-xl p-4">
           <form>
-            <div className="grid md:grid-cols-2 gap-4 w-full py-2">
+            <div className="grid md:grid-cols-2 gap-4 w-full py-2 ">
               {/* Name */}
               <div className="flex flex-col">
                 <label className="text-sm py-2">Name</label>

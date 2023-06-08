@@ -32,8 +32,8 @@ const Navbar = () => {
     <div
       className={
         shadow
-          ? "fixed w-full h-20 z-[100] shadow-xl"
-          : "fixed w-full h-20 z-[100] "
+          ? "fixed w-full h-20 z-[100] shadow-xl bg-white"
+          : "fixed w-full h-20 z-[100] bg-white  "
       }
     >
       {/* navbar header */}
@@ -101,19 +101,19 @@ const Navbar = () => {
           {/* hamburger menu list */}
           <ul className="py-10 flex flex-col">
             <Link href="/">
-              <li className="py-4 text-lg uppercase hover:underline">Home</li>
+              <li onClick={() => setSideBar(false)} className="py-4 text-lg uppercase hover:underline">Home</li>
             </Link>
 
             <Link href="/#about">
-              <li className=" py-4 text-lg uppercase hover:underline">About</li>
+              <li onClick={() => setSideBar(false)} className=" py-4 text-lg uppercase hover:underline">About</li>
             </Link>
 
             <Link href="/#projects">
-              <li className="py-4 text-lg uppercase hover:underline">Work</li>
+              <li onClick={() => setSideBar(false)} className="py-4 text-lg uppercase hover:underline">Work</li>
             </Link>
 
             <Link href="/#contact">
-              <li className="py-4 text-lg uppercase hover:underline">
+              <li onClick={() => setSideBar(false)} className="py-4 text-lg uppercase hover:underline">
                 Contact
               </li>
             </Link>
