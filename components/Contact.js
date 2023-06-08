@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Contact = () => {
   return (
-    <div className="w-full lg:h-screen">
+    <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-4 py-16 w-full">
         <h2 className="text-4xl text-[#247ba0] pb-2">Contact Me!</h2>
         <p className=" tracking-wide">
