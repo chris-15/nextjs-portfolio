@@ -6,6 +6,7 @@ import {
   SlSocialGithub,
   SlSocialLinkedin,
   SlDoc,
+  SlEnvolope
 } from "react-icons/sl";
 
 const Navbar = () => {
@@ -123,14 +124,18 @@ const Navbar = () => {
           {/* need to add links and a tag properties  */}
 
           <div className="flex justify-between items-center w-full sm:w-[80%]">
-            <a className="">
+            <a  href="https://github.com/chris-15"
+            target="_blank"
+            rel="noopener noreferrer">
               <SlSocialGithub size={35} />
             </a>
-            <a className="">
+            <a href="https://www.linkedin.com/in/christopher-sarmiento-salas/"
+            target="_blank"
+            rel="noopener noreferrer">
               <SlSocialLinkedin size={35} />
             </a>
-            <a className=" cursor-pointer animate-bounce">
-              <SlDoc size={35} />
+            <a href="mailto:chris.sarm15@gmail.com" target="_blank" rel="noopener noreferrer">
+              <SlEnvolope size={35} />
             </a>
           </div>
         </div>
