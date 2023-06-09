@@ -17,25 +17,29 @@ const Projects = () => {
             title="RentAFit"
             backgroundImg={rentafitImg}
             projectType="MERN"
-            projectUrl="/rentafit"
+            projectUrl="https://rentafit.up.railway.app/"
+            projectGithub='https://github.com/chris-15/Rent-A-Fit'
           />
           <ProjectItem
             title="All-Star Profiles"
             backgroundImg={allstarImg}
             projectType="MVC"
-            projectUrl="/rentafit"
+            projectUrl="https://github.com/chris-15/Rent-A-Fit"
+            projectGithub='https://github.com/chris-15/All-Star-Profiles'
           />
           <ProjectItem
             title="Nutrition Helper"
             backgroundImg={nutritionImg}
             projectType="HTML CSS JS"
-            projectUrl="/rentafit"
+            projectUrl="https://chris-15.github.io/Nutrition-Helper/"
+            projectGithub='https://github.com/chris-15/Nutrition-Helper'
           />
           <ProjectItem
             title="Weather Dashboard"
             backgroundImg={weatherImg}
             projectType="HTML CSS JS"
-            projectUrl="/rentafit"
+            projectUrl="https://chris-15.github.io/Weather-Dashboard/"
+            projectGithub='https://github.com/chris-15/Weather-Dashboard'
           />
         </div>
       </div>
