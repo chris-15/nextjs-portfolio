@@ -41,8 +41,8 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full px-2">
         <div>
           <Link href="/">
-            <h1 className="sm:hidden text-3xl text-[#247ba0] italic">CSS</h1>
-            <h1 className="hidden sm:block text-3xl text-[#247ba0] ">
+            <h1 className="sm:hidden text-3xl text-[#247ba0] italic hover:underline ">CSS</h1>
+            <h1 className="hidden sm:block text-3xl text-[#247ba0] hover:underline ">
               Chris Sarmiento-Salas
             </h1>
           </Link>
@@ -59,7 +59,7 @@ const Navbar = () => {
             </Link>
 
             <Link href="/#projects">
-              <li className="ml-10 text-lg uppercase hover:underline">Work</li>
+              <li className="ml-10 text-lg uppercase hover:underline">Projects</li>
             </Link>
 
             <Link href="/#contact">
@@ -110,7 +110,7 @@ const Navbar = () => {
             </Link>
 
             <Link href="/#projects">
-              <li onClick={() => setSideBar(false)} className="py-4 text-lg uppercase hover:underline">Work</li>
+              <li onClick={() => setSideBar(false)} className="py-4 text-lg uppercase hover:underline">Projects</li>
             </Link>
 
             <Link href="/#contact">
