@@ -7,6 +7,7 @@ import About from "../components/About";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact"
+import AltContact from "../components/AltContact";
 
 
 
@@ -15,7 +16,7 @@ export default function Home() {
   return (
    <div>
     <Head>
-      <title>Chris Sarmiento</title>
+      <title>Chris Sarmiento-Salas</title>
       <meta name="descritption" content="Page title"/>
     </Head>
 
@@ -23,7 +24,8 @@ export default function Home() {
     <HomePage />
     <About />
     <Projects />
-    <Contact />
+    {/* <Contact /> */}
+    <AltContact />
 
 
    </div>
