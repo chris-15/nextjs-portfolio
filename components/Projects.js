@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 import ProjectItem from "./ProjectItem";
 import rentafitImg from "../public/assets/images/rent-a-fit.png";
-import allstarImg from '../public/assets/images/AllstarProfiles.png';
+import journeyImg from '../public/assets/images/journey.png';
 import nutritionImg from '../public/assets/images/NutritionHelper.png';
 import weatherImg from '../public/assets/images/WeatherDashboard.png';
 
@@ -21,11 +21,11 @@ const Projects = () => {
             projectGithub='https://github.com/chris-15/Rent-A-Fit'
           />
           <ProjectItem
-            title="All-Star Profiles"
-            backgroundImg={allstarImg}
-            projectType="MVC"
-            projectUrl="https://github.com/chris-15/Rent-A-Fit"
-            projectGithub='https://github.com/chris-15/All-Star-Profiles'
+            title="Journey"
+            backgroundImg={journeyImg}
+            projectType="MERN"
+            projectUrl="https://journey.up.railway.app/"
+            projectGithub='https://github.com/chris-15/Journey'
           />
           <ProjectItem
             title="Nutrition Helper"
