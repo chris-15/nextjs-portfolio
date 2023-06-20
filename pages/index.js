@@ -6,7 +6,7 @@ import HomePage from "../components/HomePage";
 import About from "../components/About";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
-import Contact from "../components/Contact"
+
 import AltContact from "../components/AltContact";
 
 
@@ -24,7 +24,6 @@ export default function Home() {
     <HomePage />
     <About />
     <Projects />
-    {/* <Contact /> */}
     <AltContact />
 
 
