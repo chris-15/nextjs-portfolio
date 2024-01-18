@@ -4,8 +4,8 @@ import Link from "next/link";
 import ProjectItem from "./ProjectItem";
 import rentafitImg from "../public/assets/images/rent-a-fit.png";
 import journeyImg from '../public/assets/images/journey.png';
-import nutritionImg from '../public/assets/images/NutritionHelper.png';
-import weatherImg from '../public/assets/images/WeatherDashboard.png';
+import weatherImg from '../public/assets/images/weatherDashboard.png';
+import codDashboardImg from '../public/assets/images/codDashboard.png';
 
 const Projects = () => {
   return (
@@ -28,18 +28,18 @@ const Projects = () => {
             projectGithub='https://github.com/chris-15/Journey'
           />
           <ProjectItem
-            title="Nutrition Helper"
-            backgroundImg={nutritionImg}
-            projectType="HTML CSS JS"
-            projectUrl="https://chris-15.github.io/Nutrition-Helper/"
-            projectGithub='https://github.com/chris-15/Nutrition-Helper'
-          />
-          <ProjectItem
             title="Weather Dashboard"
             backgroundImg={weatherImg}
             projectType="HTML CSS JS"
             projectUrl="https://chris-15.github.io/Weather-Dashboard/"
             projectGithub='https://github.com/chris-15/Weather-Dashboard'
+          />
+          <ProjectItem
+            title="Cod Dashboard"
+            backgroundImg={codDashboardImg}
+            projectType="Next.js TS Prisma MongoDB"
+            projectUrl="https://cod-dashboard.vercel.app/"
+            projectGithub='https://github.com/chris-15/cod-stats-dashboard'
           />
         </div>
       </div>
