@@ -4,7 +4,7 @@ import Link from "next/link";
 import ProjectItem from "./ProjectItem";
 import rentafitImg from "../public/assets/images/rent-a-fit.png";
 import journeyImg from "../public/assets/images/journey.png";
-import weatherImg from "../public/assets/images/weatherDashboard.png";
+import weatherImg from "../public/assets/images/weather.png";
 import codDashboardImg from "../public/assets/images/codDashboard.png";
 
 const Projects = () => {
