@@ -27,7 +27,7 @@ function Hero() {
 
       <div className="sm:ml-8 mt-8 ">
         <h1 className="text-2xl ">
-          Hi, I'm Chris. I am a full-stack developer and I love to build things.
+          Hi, I&apos;m Chris. I&apos;m a full-stack developer and I love to build things.
         </h1>
         <div className="flex justify-between items-center mt-2 ">
           {heroItems.map((item, index) => (

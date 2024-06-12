@@ -5,7 +5,7 @@ function About() {
     <div className="mt-20">
       <h2 className="text-xl">About Me</h2>
       <div className="space-y-4 mt-4 flex flex-col">
-        <p>Hi, I'm Chris 👋</p>
+        <p>Hi, I&apos;m Chris 👋</p>
         <p className=" tracking-wide">
           I am full stack developer with a background in Mechanical Engineering
           and experience in the aerospace industry, passionate about creating
@@ -13,16 +13,16 @@ function About() {
           what is possible with technology.
         </p>
         <p>
-          I've always been drawn to technology and my interest in computers led
+          I&apos;ve always been drawn to technology and my interest in computers led
           me to coding, and I decided to transition into Software Engineering.
           In 2022, I enrolled in the University of Connecticut's Coding
           Bootcamp.
         </p>
         <p className="tracking-wide">
           The intensive program helped me develop a diverse skill set and deepen
-          my passion for coding. Now, as a Full Stack Developer, I'm eager to
+          my passion for coding. Now, as a Full Stack Developer, I&apos;m eager to
           apply my problem-solving skills and attention to detail to make a
-          meaningful impact in the software engineering industry. I'm actively
+          meaningful impact in the software engineering industry. I&apos;m actively
           seeking opportunities to contribute to innovative projects.
         </p>
 
