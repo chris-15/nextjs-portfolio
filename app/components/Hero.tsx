@@ -26,7 +26,7 @@ function Hero() {
       ></Image>
 
       <div className="sm:ml-8 mt-8 ">
-        <h1 className="text-2xl ">
+        <h1 className="text-2xl text-center sm:text-left ">
           Hi, I&apos;m Chris. I&apos;m a full-stack developer and I love to build things.
         </h1>
         <div className="flex justify-between items-center mt-2 ">
