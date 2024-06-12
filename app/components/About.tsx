@@ -15,7 +15,7 @@ function About() {
         <p>
           I&apos;ve always been drawn to technology and my interest in computers led
           me to coding, and I decided to transition into Software Engineering.
-          In 2022, I enrolled in the University of Connecticut's Coding
+          In 2022, I enrolled in the University of Connecticut&apos;s Coding
           Bootcamp.
         </p>
         <p className="tracking-wide">
