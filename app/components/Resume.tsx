@@ -44,7 +44,7 @@ function Resume() {
       <div className="grid grid-cols-1 gap-4 mt-4">
         <div className="">
           <h2 className="text-lg">Experience</h2>
-          <ul className="list-disc list-inside text-neutral-300">
+          <ul className=" text-neutral-400 flex flex-col space-y-1">
             <li>Configuration Management Analyst at Cyient (2017 - Present)</li>
             <li>Associate Universal Banker at Webster Bank (2016 - 2017)</li>
           </ul>
@@ -54,7 +54,7 @@ function Resume() {
 
         <div>
           <h2 className="text-lg">Education</h2>
-          <ul className="list-disc list-inside text-neutral-300">
+          <ul className="text-neutral-400 flex flex-col space-y-1">
             <li>
               B.S. in Mechanical Enginnering, University of
               Connecticut (2016)
@@ -70,7 +70,7 @@ function Resume() {
         
         <div>
           <h2 className="text-lg">Skills</h2>
-          <ul className="list-disc list-inside grid grid-cols-2 sm:grid-cols-3 gap-2 text-neutral-300">
+          <ul className="list-disc list-inside grid grid-cols-2 sm:grid-cols-3 gap-2 text-neutral-400">
             {skills.map((skill, index) => (
               <li key={index}>{skill}</li>
             ))}
@@ -81,7 +81,7 @@ function Resume() {
 
         <div>
           <h2 className="text-lg">Contact Information</h2>
-          <ul className="text-neutral-300">
+          <ul className="text-neutral-400">
             <li>Email: chris.sarm15@gmail.com</li>
             <li>
               Linkedin: https://www.linkedin.com/in/christopher-sarmiento-salas/{" "}
