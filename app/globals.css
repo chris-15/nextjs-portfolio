@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  @apply bg-black max-w-2xl flex flex-col mx-4 md:mx-auto text-white min-h-screen py-8
+}
+
+hr {
+  @apply border-neutral-700
+}
