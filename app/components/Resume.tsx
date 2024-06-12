@@ -125,7 +125,7 @@ function Resume() {
               </li>
             ))}
           </ul>
-          <div className="flex sm:hidden justify-between items-center mt-2 ">
+          <div className="flex sm:hidden justify-between items-center mt-2 text-neutral-400 ">
             {contactItems.map((item, index) => (
               <a
                 key={index}
