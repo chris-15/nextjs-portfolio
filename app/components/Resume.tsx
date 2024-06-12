@@ -109,10 +109,9 @@ function Resume() {
           <h2 className="text-lg font-semibold">Contact Information</h2>
           <ul className=" hidden sm:block text-neutral-400 space-y-2">
             {contactItems.map((item, index) => (
-              <li className="flex space-x-1">
+              <li className="flex space-x-1" key={index}>
                 <p>{item.name}:</p>
                 <a
-                  key={index}
                   href={item.href}
                   className="font-thin hover:underline hover:text-blue-200 cursor-pointer"
                   target="_blank"
