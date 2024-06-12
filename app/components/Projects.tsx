@@ -53,7 +53,7 @@ function Projects() {
         },
         {
             title: "RentAFit",
-            description: "MERN stack applicationwhere users can post clothing items to rent or search items to rent.",
+            description: "MERN stack application where users can post clothing items to rent or search items to rent.",
             backgroundImg: rentAFitImg,
             projectUrl: "https://rentafit.up.railway.app/",
             githubUrl: "https://github.com/chris-15/Rent-A-Fit"
