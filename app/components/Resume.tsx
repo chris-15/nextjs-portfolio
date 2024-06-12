@@ -1,5 +1,6 @@
 import Image from "next/image";
 import profileImage from "../../public/images/profile.png";
+import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
 
 function Resume() {
   const skills = [
@@ -15,6 +16,20 @@ function Resume() {
     "MongoDB",
     "MySQL",
     "Git",
+  ];
+
+  const contactItems = [
+    {
+      name: "Email",
+      icon: <FaEnvelope />,
+      href: "mailto:chris.sarm15@gmail.com",
+    },
+    {
+      name: "Linkedin",
+      icon: <FaLinkedin />,
+      href: "https://www.linkedin.com/in/christopher-sarmiento-salas/",
+    },
+    { name: "Github", icon: <FaGithub />, href: "https://github.com/chris-15" },
   ];
   return (
     <section className="">
@@ -43,33 +58,44 @@ function Resume() {
 
       <div className="grid grid-cols-1 gap-4 mt-4">
         <div className="">
-          <h2 className="text-lg">Experience</h2>
+          <h2 className="text-lg font-semibold">Experience</h2>
           <ul className=" text-neutral-400 flex flex-col space-y-1">
-            <li>Configuration Management Analyst at Cyient (2017 - Present)</li>
-            <li>Associate Universal Banker at Webster Bank (2016 - 2017)</li>
+            <li className="flex space-x-4">
+              <span className="font-bold text-xl">&#x2022;</span>
+              <p>Configuration Management Analyst at Cyient (2017 - Present)</p>
+            </li>
+            <li className="flex space-x-4">
+              <span className="font-bold text-xl">&#x2022;</span>
+              <p>Associate Universal Banker at Webster Bank (2016 - 2017)</p>
+            </li>
           </ul>
         </div>
 
         <hr />
 
         <div>
-          <h2 className="text-lg">Education</h2>
+          <h2 className="text-lg font-semibold">Education</h2>
           <ul className="text-neutral-400 flex flex-col space-y-1">
-            <li>
-              B.S. in Mechanical Enginnering, University of
-              Connecticut (2016)
+            <li className="flex space-x-4">
+              <span className="font-bold text-xl">&#x2022;</span>
+              <p>
+                B.S. in Mechanical Enginnering, University of Connecticut (2016)
+              </p>
             </li>
-            <li>
-              Full Stack Development Certificate, University of Connecticut
-              (2022)
+            <li className="flex space-x-4">
+              <span className="font-bold text-xl">&#x2022;</span>
+              <p>
+                Full Stack Development Certificate, University of Connecticut
+                (2022)
+              </p>
             </li>
           </ul>
         </div>
 
         <hr />
-        
+
         <div>
-          <h2 className="text-lg">Skills</h2>
+          <h2 className="text-lg font-semibold">Skills</h2>
           <ul className="list-disc list-inside grid grid-cols-2 sm:grid-cols-3 gap-2 text-neutral-400">
             {skills.map((skill, index) => (
               <li key={index}>{skill}</li>
@@ -80,14 +106,39 @@ function Resume() {
         <hr />
 
         <div>
-          <h2 className="text-lg">Contact Information</h2>
-          <ul className="text-neutral-400">
-            <li>Email: chris.sarm15@gmail.com</li>
-            <li>
-              Linkedin: https://www.linkedin.com/in/christopher-sarmiento-salas/{" "}
-            </li>
-            <li>Github: https://github.com/chris-15</li>
+          <h2 className="text-lg font-semibold">Contact Information</h2>
+          <ul className=" hidden sm:block text-neutral-400 space-y-2">
+            {contactItems.map((item, index) => (
+              <li className="flex space-x-1">
+                <p>{item.name}:</p>
+                <a
+                  key={index}
+                  href={item.href}
+                  className="font-thin hover:underline hover:text-blue-200 cursor-pointer"
+                  target="_blank"
+                >
+                  <p>
+                    {item.href === "mailto:chris.sarm15@gmail.com"
+                      ? "chris.sarm15@gmail.com"
+                      : item.href}
+                  </p>
+                </a>
+              </li>
+            ))}
           </ul>
+          <div className="flex sm:hidden justify-between items-center mt-2 ">
+            {contactItems.map((item, index) => (
+              <a
+                key={index}
+                href={item.href}
+                className="flex items-center space-x-2 hover:text-neutral-200"
+                target="_blank"
+              >
+                <p>{item.icon}</p>
+                <p>{item.name}</p>
+              </a>
+            ))}
+          </div>
         </div>
       </div>
     </section>
