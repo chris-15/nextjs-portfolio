@@ -1,8 +1,8 @@
 import Image, { StaticImageData } from "next/image"
-import journeyImg from "../../public/images/journey.png"
-import weatherDashboardImg from "../../public/images/WeatherDashboard.png"
-import rentAFitImg from "../../public/images/rent-a-fit.png"
-import codDashboardImg from "../../public/images/cod-dashboard.png"
+import journeyImg from "../public/images/journey.png"
+import weatherDashboardImg from "../public/images/WeatherDashboard.png"
+import rentAFitImg from "../public/images/rent-a-fit.png"
+import codDashboardImg from "../public/images/cod-dashboard.png"
 import { FaGithub, FaLink } from "react-icons/fa"
 
 

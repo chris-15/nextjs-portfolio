@@ -13,17 +13,17 @@ function About() {
           what is possible with technology.
         </p>
         <p>
-          I&apos;ve always been drawn to technology and my interest in computers led
-          me to coding, and I decided to transition into Software Engineering.
-          In 2022, I enrolled in the University of Connecticut&apos;s Coding
-          Bootcamp.
+          I&apos;ve always been drawn to technology and my interest in computers
+          led me to coding, and I decided to transition into Software
+          Engineering. In 2022, I enrolled in the University of
+          Connecticut&apos;s Coding Bootcamp.
         </p>
         <p className="tracking-wide">
           The intensive program helped me develop a diverse skill set and deepen
-          my passion for coding. Now, as a Full Stack Developer, I&apos;m eager to
-          apply my problem-solving skills and attention to detail to make a
-          meaningful impact in the software engineering industry. I&apos;m actively
-          seeking opportunities to contribute to innovative projects.
+          my passion for coding. Now, as a Full Stack Developer, I&apos;m eager
+          to apply my problem-solving skills and attention to detail to make a
+          meaningful impact in the software engineering industry. I&apos;m
+          actively seeking opportunities to contribute to innovative projects.
         </p>
 
         <Link href="/resume">
