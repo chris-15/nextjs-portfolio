@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { Inter, Roboto } from "next/font/google";
 
 import "./globals.css";
-import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+import NavBar from "@/components/NavBar";
 
 const inter = Inter({ subsets: ["latin"] });
 const roboto = Roboto({
@@ -15,7 +15,7 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: "Chris Sarmiento-Salas",
-  description: "Portfolio for Chris Sarmiento-Salas",
+  description: "Full-Stack Developer",
 };
 
 export default function RootLayout({
@@ -24,11 +24,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${roboto.className} `}>
-        <NavBar />
-        <main className="my-8 flex-1">{children}</main>
-       <Footer />
+    <html lang="en" className="">
+      <body className={`${roboto.className} scroll-smooth antialiased`}>
+        <main className="">{children}</main>
       </body>
     </html>
   );

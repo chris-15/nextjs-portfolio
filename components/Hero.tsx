@@ -1,48 +1,44 @@
 import Image from "next/image";
 import profileImage from "../public/images/profile.png";
 import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
+import Link from "next/link";
+import { motion } from "framer-motion";
 
 function Hero() {
-  const heroItems = [
-    {
-      name: "Email",
-      icon: <FaEnvelope />,
-      href: "mailto:chris.sarm15@gmail.com",
-    },
-    {
-      name: "Linkedin",
-      icon: <FaLinkedin />,
-      href: "https://www.linkedin.com/in/christopher-sarmiento-salas/",
-    },
-    { name: "Github", icon: <FaGithub />, href: "https://github.com/chris-15" },
-  ];
+  const heroItems = ["about", "projects", "resume"];
   return (
-    <section className=" sm:flex items-center ">
-      <Image
-        src={profileImage}
-        alt="Profile picture of Chris."
-        width={150}
-        className="rounded-full mx-auto"
-      ></Image>
-
-      <div className="sm:ml-8 mt-8 ">
-        <h1 className="text-2xl text-center sm:text-left ">
-          Hi, I&apos;m Chris. I&apos;m a full-stack developer and I love to build things.
-        </h1>
-        <div className="flex justify-between items-center mt-2 ">
-          {heroItems.map((item, index) => (
-            <a
-              key={index}
-              href={item.href}
-              className="flex items-center space-x-2 hover:text-neutral-200"
-              target="_blank"
-            >
-              <p>{item.icon}</p>
-              <p>{item.name}</p>
-            </a>
-          ))}
+    <section className=" text-white -mt-[92px]" id="hero">
+      <motion.div 
+      initial={{ opacity: 0}}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1.5 }}
+      className="flex flex-col h-screen justify-center items-center space-y-8 overflow-hidden text-center"
+      >
+        <Image
+          src={profileImage}
+          alt="Profile picture of Chris."
+          width={144}
+          height={144}
+          className="rounded-full mx-auto h-36 w-36"
+        />
+        <div className="">
+          <h2 className="pb-2 text-sm uppercase tracking-[10px] text-gray-400 animate-pulse-subtle">
+            Full-Stack Developer
+          </h2>
+          <h1 className="px-10 text-3xl font-semibold md:text-4xl lg:text-6xl">
+            Chris Sarmiento-Salas
+          </h1>
+          <div className="pt-5">
+            {heroItems.map((item) => (
+              <Link href={`#${item}`} key={item}>
+                <button className="px-6 py-2 text-sm uppercase tracking-widest text-gray-400 transition-all hover:underline hover:text-gray-300">
+                  {item}
+                </button>
+              </Link>
+            ))}
+          </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 }
