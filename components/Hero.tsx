@@ -23,7 +23,7 @@ function Hero() {
         />
         <div className="">
           <h2 className="pb-2 text-sm uppercase tracking-[10px] text-gray-400 animate-pulse-subtle">
-            Front-End Web Developer
+            Software Engineer
           </h2>
           <h1 className="px-10 text-3xl font-semibold md:text-4xl lg:text-6xl">
             Chris Sarmiento-Salas

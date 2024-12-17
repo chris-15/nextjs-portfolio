@@ -36,7 +36,7 @@ describe("Hero", () => {
     render(<Hero />);
     const heading = screen.getByRole("heading", { level: 2 });
 
-    expect(heading.textContent).toBe("Front-End Web Developer");
+    expect(heading.textContent).toBe("Software Engineer");
 
     expect(heading).toBeInTheDocument();
   });
