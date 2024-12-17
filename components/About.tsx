@@ -17,7 +17,7 @@ function About() {
         <div className="space-y-10 flex flex-col">
           <p>Hi, I&apos;m Chris 👋</p>
           <p className="tracking-wider">
-            I am full stack developer with a background in Mechanical
+            I am front-end web developer with a background in Mechanical
             Engineering and experience in the aerospace industry, passionate
             about creating innovative solutions to complex problems and pushing
             the boundaries of what is possible with technology.
@@ -30,7 +30,7 @@ function About() {
           </p>
           <p className="tracking-wider">
             The intensive program helped me develop a diverse skill set and
-            deepen my passion for coding. Now, as a Full Stack Developer,
+            deepen my passion for coding. Now, as a Front-End Web Developer,
             I&apos;m eager to apply my problem-solving skills and attention to
             detail to make a meaningful impact in the software engineering
             industry. I&apos;m actively seeking opportunities to contribute to
